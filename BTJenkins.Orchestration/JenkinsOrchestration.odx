@@ -2,28 +2,28 @@
 #error Do not define __DESIGNER_DATA.
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <om:MetaModel MajorVersion="1" MinorVersion="3" Core="2b131234-7959-458d-834f-2dc0769ce683" ScheduleModel="66366196-361d-448d-976f-cab5e87496d2" xmlns:om="http://schemas.microsoft.com/BizTalk/2003/DesignerData">
-    <om:Element Type="Module" OID="151c4606-a2e8-489b-acd2-c8a6c799970f" LowerBound="1.1" HigherBound="30.1">
+    <om:Element Type="Module" OID="151c4606-a2e8-489b-acd2-c8a6c799970f" LowerBound="1.1" HigherBound="33.1">
         <om:Property Name="ReportToAnalyst" Value="True" />
         <om:Property Name="Name" Value="BTJenkins.Orchestration" />
         <om:Property Name="Signal" Value="False" />
-        <om:Element Type="PortType" OID="3217d883-5711-4b29-9d6b-a02494f07865" ParentLink="Module_PortType" LowerBound="4.1" HigherBound="6.1">
+        <om:Element Type="PortType" OID="3217d883-5711-4b29-9d6b-a02494f07865" ParentLink="Module_PortType" LowerBound="4.1" HigherBound="11.1">
             <om:Property Name="Synchronous" Value="True" />
             <om:Property Name="TypeModifier" Value="Internal" />
             <om:Property Name="ReportToAnalyst" Value="True" />
             <om:Property Name="Name" Value="PortType_AppendName" />
             <om:Property Name="Signal" Value="False" />
-            <om:Element Type="OperationDeclaration" OID="c490430c-acda-44b4-8875-8b81e6484f1a" ParentLink="PortType_OperationDeclaration">
+            <om:Element Type="OperationDeclaration" OID="c490430c-acda-44b4-8875-8b81e6484f1a" ParentLink="PortType_OperationDeclaration" LowerBound="6.1" HigherBound="10.1">
                 <om:Property Name="OperationType" Value="RequestResponse" />
                 <om:Property Name="ReportToAnalyst" Value="True" />
                 <om:Property Name="Name" Value="AppendName" />
                 <om:Property Name="Signal" Value="True" />
-                <om:Element Type="MessageRef" OID="d0008326-06d3-4170-bb9c-25dfc12865a6" ParentLink="OperationDeclaration_RequestMessageRef">
+                <om:Element Type="MessageRef" OID="d0008326-06d3-4170-bb9c-25dfc12865a6" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="8.13" HigherBound="8.36">
                     <om:Property Name="Ref" Value="BTJenkins.Schemas.Input" />
                     <om:Property Name="ReportToAnalyst" Value="True" />
                     <om:Property Name="Name" Value="Request" />
                     <om:Property Name="Signal" Value="True" />
                 </om:Element>
-                <om:Element Type="MessageRef" OID="e1c722cd-8d82-4387-8fdd-034e88a851de" ParentLink="OperationDeclaration_ResponseMessageRef">
+                <om:Element Type="MessageRef" OID="e1c722cd-8d82-4387-8fdd-034e88a851de" ParentLink="OperationDeclaration_ResponseMessageRef" LowerBound="8.38" HigherBound="8.62">
                     <om:Property Name="Ref" Value="BTJenkins.Schemas.Output" />
                     <om:Property Name="ReportToAnalyst" Value="True" />
                     <om:Property Name="Name" Value="Response" />
@@ -31,7 +31,7 @@
                 </om:Element>
             </om:Element>
         </om:Element>
-        <om:Element Type="ServiceDeclaration" OID="272713fc-d1ff-4a57-b57a-75849486d747" ParentLink="Module_ServiceDeclaration" LowerBound="6.1" HigherBound="29.1">
+        <om:Element Type="ServiceDeclaration" OID="272713fc-d1ff-4a57-b57a-75849486d747" ParentLink="Module_ServiceDeclaration" LowerBound="11.1" HigherBound="32.1">
             <om:Property Name="InitializedTransactionType" Value="False" />
             <om:Property Name="IsInvokable" Value="False" />
             <om:Property Name="TypeModifier" Value="Internal" />
@@ -40,7 +40,7 @@
             <om:Property Name="Signal" Value="False" />
             <om:Element Type="ServiceBody" OID="b199ee4b-68a4-47c9-b4cc-08677b622729" ParentLink="ServiceDeclaration_ServiceBody">
                 <om:Property Name="Signal" Value="False" />
-                <om:Element Type="Receive" OID="47c98d90-2cad-4f94-91e3-3b72413d9dfc" ParentLink="ServiceBody_Statement" LowerBound="17.1" HigherBound="19.1">
+                <om:Element Type="Receive" OID="47c98d90-2cad-4f94-91e3-3b72413d9dfc" ParentLink="ServiceBody_Statement" LowerBound="20.1" HigherBound="22.1">
                     <om:Property Name="Activate" Value="True" />
                     <om:Property Name="PortName" Value="NameAppend" />
                     <om:Property Name="MessageName" Value="Input" />
@@ -50,35 +50,35 @@
                     <om:Property Name="Name" Value="Receive_Input" />
                     <om:Property Name="Signal" Value="True" />
                 </om:Element>
-                <om:Element Type="Construct" OID="e304637c-ad58-45a9-8062-3ba68c54d66d" ParentLink="ServiceBody_Statement" LowerBound="19.1" HigherBound="25.1">
+                <om:Element Type="Construct" OID="e304637c-ad58-45a9-8062-3ba68c54d66d" ParentLink="ServiceBody_Statement" LowerBound="22.1" HigherBound="28.1">
                     <om:Property Name="ReportToAnalyst" Value="True" />
                     <om:Property Name="Name" Value="ConstructOutput" />
                     <om:Property Name="Signal" Value="True" />
-                    <om:Element Type="Transform" OID="041ef3d6-8c16-4f29-b352-ca91a1ec2d58" ParentLink="ComplexStatement_Statement" LowerBound="22.1" HigherBound="24.1">
+                    <om:Element Type="Transform" OID="041ef3d6-8c16-4f29-b352-ca91a1ec2d58" ParentLink="ComplexStatement_Statement" LowerBound="25.1" HigherBound="27.1">
                         <om:Property Name="ClassName" Value="BTJenkins.Maps.MapFN" />
                         <om:Property Name="ReportToAnalyst" Value="True" />
                         <om:Property Name="Name" Value="Transform_1" />
                         <om:Property Name="Signal" Value="True" />
-                        <om:Element Type="MessagePartRef" OID="45cf395c-3ee2-4e8c-9e67-9e70831c47ce" ParentLink="Transform_InputMessagePartRef">
+                        <om:Element Type="MessagePartRef" OID="45cf395c-3ee2-4e8c-9e67-9e70831c47ce" ParentLink="Transform_InputMessagePartRef" LowerBound="26.60" HigherBound="26.65">
                             <om:Property Name="MessageRef" Value="Input" />
                             <om:Property Name="ReportToAnalyst" Value="True" />
                             <om:Property Name="Name" Value="MessagePartReference_1" />
                             <om:Property Name="Signal" Value="False" />
                         </om:Element>
-                        <om:Element Type="MessagePartRef" OID="5c1673ba-15b7-45e3-bde7-d18038e37da8" ParentLink="Transform_OutputMessagePartRef">
+                        <om:Element Type="MessagePartRef" OID="5c1673ba-15b7-45e3-bde7-d18038e37da8" ParentLink="Transform_OutputMessagePartRef" LowerBound="26.28" HigherBound="26.34">
                             <om:Property Name="MessageRef" Value="Output" />
                             <om:Property Name="ReportToAnalyst" Value="True" />
                             <om:Property Name="Name" Value="MessagePartReference_2" />
                             <om:Property Name="Signal" Value="False" />
                         </om:Element>
                     </om:Element>
-                    <om:Element Type="MessageRef" OID="81ed693f-a5d2-44cf-afa6-9e1af44ee55f" ParentLink="Construct_MessageRef" LowerBound="20.23" HigherBound="20.29">
+                    <om:Element Type="MessageRef" OID="81ed693f-a5d2-44cf-afa6-9e1af44ee55f" ParentLink="Construct_MessageRef" LowerBound="23.23" HigherBound="23.29">
                         <om:Property Name="Ref" Value="Output" />
                         <om:Property Name="ReportToAnalyst" Value="True" />
                         <om:Property Name="Signal" Value="False" />
                     </om:Element>
                 </om:Element>
-                <om:Element Type="Send" OID="d8d27fd5-23e4-4c68-b6dd-ae0df3284090" ParentLink="ServiceBody_Statement" LowerBound="25.1" HigherBound="27.1">
+                <om:Element Type="Send" OID="d8d27fd5-23e4-4c68-b6dd-ae0df3284090" ParentLink="ServiceBody_Statement" LowerBound="28.1" HigherBound="30.1">
                     <om:Property Name="PortName" Value="NameAppend" />
                     <om:Property Name="MessageName" Value="Output" />
                     <om:Property Name="OperationName" Value="AppendName" />
@@ -88,7 +88,7 @@
                     <om:Property Name="Signal" Value="True" />
                 </om:Element>
             </om:Element>
-            <om:Element Type="PortDeclaration" OID="be8218dd-85e9-4a91-9fa5-c19c27ef8dc7" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="9.1" HigherBound="11.1">
+            <om:Element Type="PortDeclaration" OID="be8218dd-85e9-4a91-9fa5-c19c27ef8dc7" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="14.1" HigherBound="16.1">
                 <om:Property Name="PortModifier" Value="Implements" />
                 <om:Property Name="Orientation" Value="Left" />
                 <om:Property Name="PortIndex" Value="-1" />
@@ -100,18 +100,18 @@
                 <om:Property Name="ReportToAnalyst" Value="True" />
                 <om:Property Name="Name" Value="NameAppend" />
                 <om:Property Name="Signal" Value="False" />
-                <om:Element Type="LogicalBindingAttribute" OID="3f8bfb03-acac-4e1e-b768-e958ca1925f1" ParentLink="PortDeclaration_CLRAttribute" LowerBound="9.1" HigherBound="10.1">
+                <om:Element Type="LogicalBindingAttribute" OID="3f8bfb03-acac-4e1e-b768-e958ca1925f1" ParentLink="PortDeclaration_CLRAttribute" LowerBound="14.1" HigherBound="15.1">
                     <om:Property Name="Signal" Value="False" />
                 </om:Element>
             </om:Element>
-            <om:Element Type="MessageDeclaration" OID="8c50b40d-39d4-4a65-9c4c-fdb4f312c8e0" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="11.1" HigherBound="13.1">
+            <om:Element Type="MessageDeclaration" OID="8c50b40d-39d4-4a65-9c4c-fdb4f312c8e0" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="16.1" HigherBound="17.1">
                 <om:Property Name="Type" Value="BTJenkins.Schemas.Input" />
                 <om:Property Name="ParamDirection" Value="In" />
                 <om:Property Name="ReportToAnalyst" Value="True" />
                 <om:Property Name="Name" Value="Input" />
                 <om:Property Name="Signal" Value="True" />
             </om:Element>
-            <om:Element Type="MessageDeclaration" OID="e73bf888-921c-4076-8ebd-6d58a105b0c4" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="13.1" HigherBound="15.1">
+            <om:Element Type="MessageDeclaration" OID="e73bf888-921c-4076-8ebd-6d58a105b0c4" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="17.1" HigherBound="18.1">
                 <om:Property Name="Type" Value="BTJenkins.Schemas.Output" />
                 <om:Property Name="ParamDirection" Value="In" />
                 <om:Property Name="ReportToAnalyst" Value="True" />
@@ -125,17 +125,20 @@
 [Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
 module BTJenkins.Orchestration
 {
-
-#error "Errors exist for one or more children."
+    internal porttype PortType_AppendName
+    {
+        requestresponse AppendName
+        {
+            BTJenkins.Schemas.Input, BTJenkins.Schemas.Output
+        };
+    };
     [Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
     internal service JenkinsOrchestration
     {
         [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
         port implements PortType_AppendName NameAppend;
-
-#error "Message Type 'BTJenkins.Schemas.Input' does not exist or is not valid."
-
-#error "Message Type 'BTJenkins.Schemas.Output' does not exist or is not valid."
+        message BTJenkins.Schemas.Input Input;
+        message BTJenkins.Schemas.Output Output;
         body ()
         {
             [Microsoft.XLANGs.BaseTypes.DesignerPosition("47c98d90-2cad-4f94-91e3-3b72413d9dfc")]
@@ -143,8 +146,8 @@ module BTJenkins.Orchestration
             [Microsoft.XLANGs.BaseTypes.DesignerPosition("e304637c-ad58-45a9-8062-3ba68c54d66d")]
             construct Output
             {
-
-#error "Map Name 'BTJenkins.Maps.MapFN' does not exist or is not valid."
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("041ef3d6-8c16-4f29-b352-ca91a1ec2d58")]
+                transform (Output) = BTJenkins.Maps.MapFN (Input);
             }
             [Microsoft.XLANGs.BaseTypes.DesignerPosition("d8d27fd5-23e4-4c68-b6dd-ae0df3284090")]
             send (NameAppend.AppendName, Output);

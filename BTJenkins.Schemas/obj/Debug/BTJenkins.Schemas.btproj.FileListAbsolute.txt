@@ -2,3 +2,7 @@ C:\BTJenkins\BiztalkJenkinsAutomation\BTJenkins.Schemas\bin\Debug\BTJenkins.Sche
 C:\BTJenkins\BiztalkJenkinsAutomation\BTJenkins.Schemas\bin\Debug\BTJenkins.Schemas.pdb
 C:\BTJenkins\BiztalkJenkinsAutomation\BTJenkins.Schemas\obj\Debug\BTJenkins.Schemas.dll
 C:\BTJenkins\BiztalkJenkinsAutomation\BTJenkins.Schemas\obj\Debug\BTJenkins.Schemas.pdb
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Schemas\bin\Debug\BTJenkins.Schemas.dll
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Schemas\bin\Debug\BTJenkins.Schemas.pdb
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Schemas\obj\Debug\BTJenkins.Schemas.dll
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Schemas\obj\Debug\BTJenkins.Schemas.pdb

@@ -3,3 +3,8 @@ C:\BTJenkins\BiztalkJenkinsAutomation\BTJenkins.Maps\bin\Debug\BTJenkins.Maps.pd
 C:\BTJenkins\BiztalkJenkinsAutomation\BTJenkins.Maps\bin\Debug\BTJenkins.Schemas.dll
 C:\BTJenkins\BiztalkJenkinsAutomation\BTJenkins.Maps\obj\Debug\BTJenkins.Maps.dll
 C:\BTJenkins\BiztalkJenkinsAutomation\BTJenkins.Maps\obj\Debug\BTJenkins.Maps.pdb
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Maps\bin\Debug\BTJenkins.Maps.dll
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Maps\bin\Debug\BTJenkins.Maps.pdb
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Maps\bin\Debug\BTJenkins.Schemas.dll
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Maps\obj\Debug\BTJenkins.Maps.dll
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Maps\obj\Debug\BTJenkins.Maps.pdb
