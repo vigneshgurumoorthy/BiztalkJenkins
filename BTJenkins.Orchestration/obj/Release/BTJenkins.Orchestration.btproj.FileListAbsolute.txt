@@ -1,6 +1,0 @@
-C:\BTJenkins\BiztalkJenkins\BTJenkins.Orchestration\bin\Release\BTJenkins.Orchestration.dll
-C:\BTJenkins\BiztalkJenkins\BTJenkins.Orchestration\bin\Release\BTJenkins.Orchestration.pdb
-C:\BTJenkins\BiztalkJenkins\BTJenkins.Orchestration\bin\Release\BTJenkins.Maps.dll
-C:\BTJenkins\BiztalkJenkins\BTJenkins.Orchestration\bin\Release\BTJenkins.Schemas.dll
-C:\BTJenkins\BiztalkJenkins\BTJenkins.Orchestration\obj\Release\BTJenkins.Orchestration.dll
-C:\BTJenkins\BiztalkJenkins\BTJenkins.Orchestration\obj\Release\BTJenkins.Orchestration.pdb
