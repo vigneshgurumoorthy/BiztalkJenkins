@@ -1,0 +1,4 @@
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Schemas\bin\Release\BTJenkins.Schemas.dll
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Schemas\bin\Release\BTJenkins.Schemas.pdb
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Schemas\obj\Release\BTJenkins.Schemas.dll
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Schemas\obj\Release\BTJenkins.Schemas.pdb

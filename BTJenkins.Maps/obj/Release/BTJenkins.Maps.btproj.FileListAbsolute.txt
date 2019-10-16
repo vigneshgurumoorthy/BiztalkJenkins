@@ -1,0 +1,5 @@
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Maps\bin\Release\BTJenkins.Maps.dll
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Maps\bin\Release\BTJenkins.Maps.pdb
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Maps\bin\Release\BTJenkins.Schemas.dll
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Maps\obj\Release\BTJenkins.Maps.dll
+C:\BTJenkins\BiztalkJenkins\BTJenkins.Maps\obj\Release\BTJenkins.Maps.pdb
