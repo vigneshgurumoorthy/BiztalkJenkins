@@ -1,0 +1,4 @@
+C:\BTJenkins\BiztalkJenkinsAutomation\BTJenkins.Schemas\bin\Debug\BTJenkins.Schemas.dll
+C:\BTJenkins\BiztalkJenkinsAutomation\BTJenkins.Schemas\bin\Debug\BTJenkins.Schemas.pdb
+C:\BTJenkins\BiztalkJenkinsAutomation\BTJenkins.Schemas\obj\Debug\BTJenkins.Schemas.dll
+C:\BTJenkins\BiztalkJenkinsAutomation\BTJenkins.Schemas\obj\Debug\BTJenkins.Schemas.pdb
